@@ -2,8 +2,8 @@ var loc = document.getElementById("loc");
 var predictHQUrl=https://api.predicthq.com;
 
 
-var client_id = 'phq.pBkARGtqZsf0wljA7nfkqvw2PuTTpxYRvgg9Vq4e';
-var client_secret = 'yzkIsZHtUfGubzFppws22P0FxGG2mQhmhFiKZD0C';
+var client_id = '';
+var client_secret = '';
 var api_token;
 
 function getLocation() {
