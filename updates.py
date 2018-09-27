@@ -1,11 +1,11 @@
 import praw
 
-reddit = praw.Reddit(client_id = 'ErnAbet5rZVdDA',
-                     client_secret = 'iYtFzzqO-x2Yfv5L3Vt06k1Y8ug',
-                     user_agent='prawtutorial1v1'
+reddit = praw.Reddit(client_id = '',
+                     client_secret = '',
+                     user_agent=''
                      )
 
-keyword = 'is'
+keyword = 'flood'
 
 for post in reddit.subreddit('all').stream.submissions():
      try:
